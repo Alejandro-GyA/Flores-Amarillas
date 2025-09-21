@@ -4,8 +4,8 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Started out on a one-way train", time: 3 },
-  { text: "Always knew where I was gonna go next", time: 5 },
+  { text: "Started out on a one-way train", time: 2 },
+  { text: "Always knew where I was gonna go next", time: 4 },
   { text: "Didn't know until I saw your face", time: 7 },
   { text: "I was missing out on every moment", time: 12 },
   { text: "You'll be one and, baby, I'll be two", time: 13 },
@@ -35,7 +35,7 @@ function updateLyrics() {
 
   if (currentLine) {
     // Calcula la opacidad basada en el tiempo en la línea actual
-    var fadeInDuration = 1.5; // Duración del efecto de aparición en segundos
+    var fadeInDuration = 0.5; // Duración del efecto de aparición en segundos
     var opacity = Math.min(1, (time - currentLine.time) / fadeInDuration);
 
     // Aplica el efecto de aparición
