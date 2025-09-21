@@ -4,8 +4,8 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Started out on a one-way train", time: 12 },
-  { text: "Always knew where I was gonna go next", time: 14 },
+  { text: "Started out on a one-way train", time: 10 },
+  { text: "Always knew where I was gonna go next", time: 12 },
   { text: "Didn't know until I saw your face", time: 17 },
   { text: "I was missing out on every moment", time: 20 },
   { text: "You'll be one and, baby, I'll be two", time: 22 },
@@ -46,7 +46,7 @@ function updateLyrics() {
   }
 }
 
-setInterval(updateLyrics, 10);
+setInterval(updateLyrics, 100);
 
 //funcion titulo
 function ocultarTitulo() {
