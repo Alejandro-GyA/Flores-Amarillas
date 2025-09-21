@@ -4,11 +4,11 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Started out on a one-way train", time: 2 },
-  { text: "Always knew where I was gonna go next", time: 3 },
-  { text: "Didn't know until I saw your face", time: 4 },
-  { text: "I was missing out on every moment", time: 5 },
-  { text: "You'll be one and, baby, I'll be two", time: 6 },
+  { text: "Started out on a one-way train", time: 4 },
+  { text: "Always knew where I was gonna go next", time: 7 },
+  { text: "Didn't know until I saw your face", time: 9 },
+  { text: "I was missing out on every moment", time: 10 },
+  { text: "You'll be one and, baby, I'll be two", time: 13 },
   { text: "Would you mind it if I said I'm into you", time: 14 },
   { text: "So if it's real, then darling let me know", time: 38 },
   { text: "I wouldn't mind if you steal the show", time: 44 },
@@ -48,7 +48,7 @@ function updateLyrics() {
   }
 }
 
-setInterval(updateLyrics, 100);
+setInterval(updateLyrics, 10);
 
 //funcion titulo
 // Función para ocultar el título después de 216 segundos
