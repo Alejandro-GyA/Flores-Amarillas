@@ -28,11 +28,15 @@ var lyricsData = [
 
 // Animar las letras
 function updateLyrics() {
-  var time = audio.currentTime;
-  var currentLine = lyricsData.find(
-    (line) => time >= line.time && time < line.time + 6
-  );
-
+  var time = Math.floor(audio.currentTime); // Usamos Math.floor para trabajar con segundos exactos
+  var currentLine = null;
+  // Buscamos la última línea cuyo tiempo ya haya pasado
+  for (var i = lyricsData.length - 1; i >= 0; i--) {
+    if (time >= lyricsData[i].time) {
+      currentLine = lyricsData[i];
+      break;
+    }
+  }
   if (currentLine) {
     // Calcula la opacidad basada en el tiempo en la línea actual
     var fadeInDuration = 0.1; // Duración del efecto de aparición en segundos
