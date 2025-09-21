@@ -4,8 +4,8 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Started out on a one-way train", time: 10 },
-  { text: "Always knew where I was gonna go next", time: 12 },
+  { text: "Started out on a one-way train", time: 12 },
+  { text: "Always knew where I was gonna go next", time: 14 },
   { text: "Didn't know until I saw your face", time: 17 },
   { text: "I was missing out on every moment", time: 20 },
   { text: "You'll be one and, baby, I'll be two", time: 22 },
@@ -22,10 +22,9 @@ var lyricsData = [
   { text: "So if it's real, then darling let me know", time: 96 },
   { text: "I wouldn't mind if you steal the show", time: 104 },
 ];
-
 // Animar las letras
 function updateLyrics() {
-  var time = Math.floor(audio.currentTime);
+  var time = audio.currentTime; // Usamos el tiempo exacto con decimales para mayor fluidez
   var currentLine = null;
   // Buscamos la última línea cuyo tiempo ya haya pasado
   for (var i = lyricsData.length - 1; i >= 0; i--) {
@@ -36,8 +35,8 @@ function updateLyrics() {
   }
 
   if (currentLine) {
-    var fadeInDuration = 0.1;
-    var opacity = Math.min(1, (audio.currentTime - currentLine.time) / fadeInDuration);
+    var fadeInDuration = 0.1; // Duración del efecto de aparición en segundos
+    var opacity = Math.min(1, (time - currentLine.time) / fadeInDuration);
     lyrics.style.opacity = opacity;
     lyrics.innerHTML = currentLine.text;
   } else {
@@ -46,7 +45,7 @@ function updateLyrics() {
   }
 }
 
-setInterval(updateLyrics, 100);
+setInterval(updateLyrics, 10);
 
 //funcion titulo
 function ocultarTitulo() {
