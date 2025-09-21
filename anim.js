@@ -6,8 +6,8 @@ var lyrics = document.querySelector("#lyrics");
 var lyricsData = [
   { text: "Started out on a one-way train", time: 10 },
   { text: "Always knew where I was gonna go next", time: 14 },
-  { text: "Didn't know until I saw your face", time: 13 },
-  { text: "I was missing out on every moment", time: 18 },
+  { text: "Didn't know until I saw your face", time: 18 },
+  { text: "I was missing out on every moment", time: 20 },
   { text: "You'll be one and, baby, I'll be two", time: 24 },
   { text: "Would you mind it if I said I'm into you", time: 30 },
   { text: "So if it's real, then darling let me know", time: 38 },
