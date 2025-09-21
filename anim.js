@@ -4,33 +4,26 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "At the time", time: 15 },
-  { text: "The whisper of birds", time: 18 },
-  { text: "Lonely before the sun cried", time: 27 },
-  { text: "Fell from the sky", time: 32 },
-  { text: "Like water drops", time: 33 },
-  { text: "Where I'm now? I don't know why", time: 41 },
-  { text: "Nice butterflies in my hands", time: 47 },
-  { text: "Too much light for twilight", time: 54 },
-  { text: "In the mood for the flowers love", time: 59 },
-  { text: "That vision", time: 67 },
-  { text: "Really strong, blew my mind", time: 72 },
-  { text: "Silence Let me see what it was", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "Started out on a one-way train", time: 0 },
+  { text: "Always knew where I was gonna go next", time: 6 },
+  { text: "Didn't know until I saw your face", time: 12 },
+  { text: "I was missing out on every moment", time: 18 },
+  { text: "You'll be one and, baby, I'll be two", time: 24 },
+  { text: "Would you mind it if I said I'm into you", time: 30 },
+  { text: "So if it's real, then darling let me know", time: 38 },
+  { text: "I wouldn't mind if you steal the show", time: 44 },
+
+  { text: "", time: 50 }, // pausa
+
+  { text: "You and I, we go together", time: 58 },
+  { text: "You're the sky, I'll be the weather", time: 64 },
+  { text: "A pretty thing, a sun and rain, oh no", time: 70 },
+  { text: "Summer night, perfect occasion", time: 78 },
+  { text: "When I'm by, you know I'll be waiting for you", time: 85 },
+  { text: "Oh, for you", time: 91 },
+  
+  { text: "So if it's real, then darling let me know", time: 98 },
+  { text: "I wouldn't mind if you steal the show", time: 104 },
 ];
 
 // Animar las letras
