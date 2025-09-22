@@ -9,7 +9,7 @@ var lyricsData = [
   { text: "Didn't know until I saw your face", time: 16 },
   { text: "I was missing out on every moment", time: 20 },
   { text: "You'll be one and, baby, I'll be two", time: 22 },
-  { text: "Would you mind it if I said", time: 24 },
+  { text: "Would you mind it if I said, I'm into you", time: 24 },
   { text: "I'm into you", time: 29 },
   { text: "So if it's real", time: 31 },
   { text: "then darling let me know", time: 35 },
@@ -25,7 +25,7 @@ var lyricsData = [
   { text: "Summer night, perfect occasion", time: 80 },
   { text: "When I'm by, you know I'll be waiting for you", time: 83 },
   { text: "Oh, for you", time: 86 },
-  { text: "So if it's real, then darling let me know", time: 89 },
+  { text: "So if it's real, then darling let me know", time: 85 },
   { text: "I wouldn't mind if you steal the show", time: 99 },
 ];
 // Animar las letras
