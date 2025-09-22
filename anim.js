@@ -18,15 +18,22 @@ var lyricsData = [
   { text: "", time: 48 }, // Pausa
   { text: "You and I", time: 68 },
   { text: "we go together", time: 70 },
-  { text: "You're the sky", time: 72 },
-  { text: "I'll be the weather", time: 73 },
-  { text: "A pretty thing", time: 74 },
-  { text: "a sun and rain, oh no", time: 76 },
+  { text: "You're the sky", time: 71 },
+  { text: "I'll be the weather", time: 72 },
+  { text: "A pretty thing", time: 73 },
+  { text: "a sun and rain, oh no", time: 75 },
   { text: "Summer night, perfect occasion", time: 80 },
   { text: "When I'm by, you know I'll be waiting for you", time: 83 },
   { text: "Oh, for you", time: 86 },
   { text: "So if it's real, then darling let me know", time: 85 },
   { text: "I wouldn't mind if you steal the show", time: 99 },
+  { text: "So if it's real", time: 109 },
+  { text: "then darling let me know", time: 112 },
+  { text: "I wouldn't mind", time: 119 },
+  { text: "if you steal the show", time: 122 },
+  { text: "You shine", time: 125 },
+  { text: "You shine", time: 127 },
+  { text:"Like forever", time: 130 },
 ];
 // Animar las letras
 function updateLyrics() {
