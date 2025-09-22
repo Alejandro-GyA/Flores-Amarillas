@@ -24,10 +24,10 @@ var lyricsData = [
   { text: "a sun and rain, oh no", time: 75 },
   { text: "Summer night, perfect occasion", time: 80 },
   { text: "When I'm by, you know I'll be waiting for you", time: 83 },
-  { text: "Oh, for you", time: 86 },
-  { text: "So if it's real, then darling let me know", time: 85 },
+  { text: "Oh, for you", time: 85 },
+  { text: "So if it's real, then darling let me know", time: 86 },
   { text: "I wouldn't mind if you steal the show", time: 100 },
-  { text: "So if it's real", time: 109 },
+  { text: "So if it's real", time: 108 },
   { text: "then darling let me know", time: 112 },
   { text: "I wouldn't mind", time: 119 },
   { text: "if you steal the show", time: 122 },
@@ -48,7 +48,7 @@ var lyricsData = [
   { text: "then darling let me know", time: 169 },
   { text: "I wouldn't mind", time: 177 },
   { text: "if you steal the show", time: 180 },
-  { text: "", time: 48 }, // Fin
+  { text: "", time: 183 }, // Fin
 ];
 // Animar las letras
 function updateLyrics() {
