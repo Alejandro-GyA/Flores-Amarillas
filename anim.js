@@ -4,16 +4,19 @@ var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Started out on a one-way train", time: 11 },
+  { text: "Started out on a one-way train", time: 12 },
   { text: "Always knew where I was gonna go next", time: 14 },
   { text: "Didn't know until I saw your face", time: 16 },
   { text: "I was missing out on every moment", time: 20 },
   { text: "You'll be one and, baby, I'll be two", time: 22 },
-  { text: "Would you mind it if I said I'm into you", time: 25 },
-  { text: "So if it's real, then darling let me know", time: 30 },
-  { text: "I wouldn't mind if you steal the show", time: 38 },
+  { text: "Would you mind it if I said I'm into you", time: 24 },
+  { text: "I'm into you", time: 24 },
+  { text: "So if it's real", time: 31 },
+  { text: "then darling let me know", time: 35 },
+  { text: "I wouldn't mind", time: 42 },
+  { text: "if you steal the show", time: 45 },
   { text: "", time: 48 }, // Pausa
-  { text: "You and I, we go together", time: 57 },
+  { text: "You and I, we go together", time: 68 },
   { text: "You're the sky, I'll be the weather", time: 63 },
   { text: "A pretty thing, a sun and rain, oh no", time: 70 },
   { text: "Summer night, perfect occasion", time: 78 },
