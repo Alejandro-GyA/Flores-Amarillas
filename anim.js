@@ -26,7 +26,7 @@ var lyricsData = [
   { text: "When I'm by, you know I'll be waiting for you", time: 83 },
   { text: "Oh, for you", time: 86 },
   { text: "So if it's real, then darling let me know", time: 85 },
-  { text: "I wouldn't mind if you steal the show", time: 99 },
+  { text: "I wouldn't mind if you steal the show", time: 100 },
   { text: "So if it's real", time: 109 },
   { text: "then darling let me know", time: 112 },
   { text: "I wouldn't mind", time: 119 },
@@ -34,6 +34,21 @@ var lyricsData = [
   { text: "You shine", time: 125 },
   { text: "You shine", time: 127 },
   { text:"Like forever", time: 130 },
+  { text:"That's forever", time: 132 },
+  { text: "You shine", time: 135 },
+  { text: "You shine", time: 138 },
+  { text: "And steal the show", time: 140 },
+  { text: "So if it's real", time: 145 },
+  { text: "then darling let me know", time: 148 },
+  { text: "I wouldn't mind", time: 155 },
+  { text: "if you steal the show", time: 159 },
+  { text: "Started out on a one-way train ", time: 162 },
+  { text: "Always knew where I was gonna go next", time: 165 },
+  { text: "So if it's real", time: 166 },
+  { text: "then darling let me know", time: 169 },
+  { text: "I wouldn't mind", time: 177 },
+  { text: "if you steal the show", time: 180 },
+  { text: "", time: 48 }, // Fin
 ];
 // Animar las letras
 function updateLyrics() {
