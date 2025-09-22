@@ -24,9 +24,9 @@ var lyricsData = [
   { text: "a sun and rain, oh no", time: 78 },
   { text: "Summer night, perfect occasion", time: 80 },
   { text: "When I'm by, you know I'll be waiting for you", time: 83 },
-  { text: "Oh, for you", time: 89 },
-  { text: "So if it's real, then darling let me know", time: 96 },
-  { text: "I wouldn't mind if you steal the show", time: 104 },
+  { text: "Oh, for you", time: 86 },
+  { text: "So if it's real, then darling let me know", time: 89 },
+  { text: "I wouldn't mind if you steal the show", time: 99 },
 ];
 // Animar las letras
 function updateLyrics() {
